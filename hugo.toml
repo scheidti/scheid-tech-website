@@ -1,0 +1,10 @@
+baseURL = 'https://www.scheid.tech/'
+languageCode = 'de'
+title = 'scheid.tech'
+author = 'Christian Scheid'
+theme = 'risotto'
+DefaultContentLanguage = 'de'
+copyright = '© [Joe Roe](https://joeroe.io) & [risotto contributors](https://github.com/joeroe/risotto/graphs/contributors).'
+
+[params.theme]
+palette = "solarized-dark"
