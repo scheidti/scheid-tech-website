@@ -12,6 +12,10 @@ Gardeschützenweg 136\
 Tel.: [+49 30 89630192](tel:+493089630192)\
 E-Mail: <admin@scheid.tech>
 
+### PGP-Schlüssel zum Versand verschlüsselter E-Mails
+
+[PGP-Schlüssel](/files/pgp-key.asc)
+
 ## Verantwortlich im Sinne von § 18 Abs. 2 Medienstaatsvertrag 
 Christian Scheid\
 Gardeschützenweg 136\
