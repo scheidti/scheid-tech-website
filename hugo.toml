@@ -3,8 +3,63 @@ languageCode = 'de'
 title = 'scheid.tech'
 author = 'Christian Scheid'
 theme = 'risotto'
-DefaultContentLanguage = 'de'
-copyright = '© [Joe Roe](https://joeroe.io) & [risotto contributors](https://github.com/joeroe/risotto/graphs/contributors).'
+defaultContentLanguage = 'de'
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.de]
+    contentDir = 'content/de'
+    disabled = false
+    languageCode = 'de-DE'
+    languageDirection = 'ltr'
+    languageName = 'Deutsch'
+    title = 'scheid.tech'
+    weight = 1
+    [languages.de.params]
+      subtitle = ''
+    [languages.de.menus]
+      [[languages.de.menus.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/"
+        weight = 1
+      [[languages.de.menus.main]]
+        identifier = "impressum"
+        name = "Impressum"
+        url = "/impressum/"
+        weight = 20
+      [[languages.de.menus.main]]
+        identifier = "disclaimer"
+        name = "Disclaimer"
+        url = "/disclaimer/"
+        weight = 30
+
+  [languages.en]
+    contentDir = 'content/en'   
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    title = 'scheid.tech'
+    weight = 2
+    [languages.en.params]
+      subtitle = ''
+    [languages.en.menus]
+      [[languages.en.menus.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/"
+        weight = 1
+      [[languages.en.menus.main]]
+        identifier = "imprint"
+        name = "imprint"
+        url = "/imprint/"
+        weight = 20
+      [[languages.en.menus.main]]
+        identifier = "disclaimer"
+        name = "Disclaimer"
+        url = "/disclaimer/"
+        weight = 30
 
 [params.theme]
 palette = "solarized-dark"
