@@ -23,15 +23,6 @@ jobs:
           hugo-version: '0.128.0'
           extended: true
 
-      - name: Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install Dart Sass
-        run: npm install -g sass
-
       - name: Build
         run: hugo --minify
 
