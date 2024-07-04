@@ -8,10 +8,10 @@ To run this blog locally, you'll need to have Hugo installed on your machine. If
 
 ### Installation
 
-1. Clone the repository to your local machine:
+1. Clone the repository to your local machine with submodules:
 
 ```bash
-git clone https://github.com/scheidti/scheid-tech-website.git
+git clone --recurse-submodules https://github.com/scheidti/scheid-tech-website.git
 cd scheid-tech-website
 ```
 
