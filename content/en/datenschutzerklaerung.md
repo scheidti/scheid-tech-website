@@ -13,6 +13,8 @@ description = "Learn how your personal data is protected on the website www.sche
 - [Data Security](#data-security)
 - [Validity and Changes to the Privacy Policy](#validity-and-changes-to-the-privacy-policy)
 
+<!--more-->
+
 ## Contact
 
 Responsible within the meaning of Art. 4 No. 7 General Data Protection Regulation (GDPR) is:

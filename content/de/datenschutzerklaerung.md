@@ -12,6 +12,8 @@ description = "Erfahren Sie, wie Ihre persönlichen Daten auf der Website www.sc
 - [Datensicherheit](#datensicherheit)
 - [Aktualität und Änderungen der Datenschutzerklärung](#aktualität-und-änderungen-der-datenschutzerklärung)
 
+<!--more-->
+
 ## Kontakt
 
 Verantwortlicher im Sinne von Art. 4 Nr. 7 Datenschutz-Grundverordnung (DSGVO) ist:

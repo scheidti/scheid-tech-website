@@ -7,6 +7,8 @@ description = "Erfahren Sie mehr über die Inhalte, Verfügbarkeit und Urheberre
 
 Die Inhalte dieses Webauftritts werden mit größtmöglicher Sorgfalt erstellt. Der Betreiber der Website übernimmt jedoch keine Gewähr für die Richtigkeit, Vollständigkeit und Aktualität der bereitgestellten Inhalte.
 
+<!--more-->
+
 ## Verfügbarkeit der Website 
 
 Der Betreiber der Website ist bestrebt, den Dienst unterbrechungsfrei zum Abruf anzubieten. Auch bei aller Sorgfalt können aber Ausfallzeiten nicht ausgeschlossen werden. Der Betreiber der Website behält sich das Recht vor, sein Angebot jederzeit zu ändern oder einzustellen. Für durch nicht fehlerfrei angelegte Dateien oder nicht fehlerfrei strukturierte Formate bedingte Unterbrechungen oder anderweitige Störungen übernimmt er keine Gewähr.

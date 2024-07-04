@@ -7,6 +7,8 @@ description = "Learn more about the content, availability, and copyrights of thi
 
 The contents of this website are created with the greatest possible care. However, the operator of the website assumes no responsibility for the accuracy, completeness, and timeliness of the provided content.
 
+<!--more-->
+
 ## Availability of the Website
 
 The operator of the website endeavors to offer the service for retrieval without interruption. However, even with all due care, downtime cannot be excluded. The operator of the website reserves the right to change or discontinue his offer at any time. He does not assume any warranty for interruptions or other disturbances caused by files that are not created flawlessly or by formats that are not structured flawlessly.

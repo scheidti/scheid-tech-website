@@ -13,6 +13,8 @@ Gardeschützenweg 136\
 Tel.: [+49 30 89630192](tel:+493089630192)\
 E-Mail: <admin@scheid.tech>
 
+<!--more-->
+
 ### PGP-Schlüssel zum Versand verschlüsselter E-Mails
 
 [PGP-Schlüssel](/files/pgp-key.asc)

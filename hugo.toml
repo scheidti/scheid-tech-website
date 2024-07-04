@@ -7,6 +7,17 @@ defaultContentLanguage = 'de'
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 timeZone = 'Europe/Berlin'
+copyright = '© 2024 Christian Scheid'
+
+[[params.socialLinks]]
+icon = "icon-github"
+title = "GitHub"
+url = "https://github.com/scheidti"
+
+[[params.socialLinks]]
+icon = "icon-email"
+title = "E-Mail"
+url = "mailto:christian@scheid.tech"
 
 [languages]
   [languages.de]
@@ -75,3 +86,8 @@ timeZone = 'Europe/Berlin'
 
 [params.theme]
 palette = "solarized-dark"
+
+[params]
+  [params.author]
+    email = 'christian@scheid.tech'
+    name = 'Christian Scheid'
