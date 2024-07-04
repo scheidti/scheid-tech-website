@@ -1,0 +1,14 @@
+<div class="aside__about">
+    <h1 class="about__title">About</h1>
+    <p class="about__description">
+        {{ T "about_description" }}
+    </p>
+</div>
+
+<ul class="aside__social-links">
+    {{ range $item := .Site.Params.socialLinks }}
+    <li>
+        <a href="{{ $item.url }}" rel="me" aria-label="{{ $item.title }}" title="{{ $item.title }}"><i class="{{ $item.icon }}" aria-hidden="true"></i></a>&nbsp;
+    </li>
+    {{ end }}
+</ul>
