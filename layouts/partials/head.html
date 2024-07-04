@@ -2,17 +2,16 @@
 {{ with .Site.Params.about }}<meta name="description" content="{{ .description }}">{{ end }}
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta charset="UTF-8"/>
-{{ if .Site.Params.noindex }}<meta name="robots" content="noindex" /> {{ end }}
+<meta charset="UTF-8">
+{{ if .Site.Params.noindex }}<meta name="robots" content="noindex"> {{ end }}
 
 <link rel="canonical" href="{{ .Permalink }}">
 {{- if .IsTranslated -}}{{ range .AllTranslations }}
-<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" />
+<link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}">
 {{- end -}}
 {{ end }}
 
 {{ template "_internal/opengraph.html" . }}
-{{ template "_internal/schema.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
 
 <!-- risotto theme -->
