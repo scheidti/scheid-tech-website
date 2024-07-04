@@ -17,6 +17,9 @@ jobs:
           submodules: true
           fetch-depth: 0
 
+      - name: Dart Sass
+        run: sudo snap install dart-sass-embedded
+
       - name: Hugo
         uses: peaceiris/actions-hugo@v3
         with:
