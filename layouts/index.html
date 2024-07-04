@@ -1,0 +1,12 @@
+{{ define "main" }}
+  <header class="content__header">
+    <h1>Blog</h1>
+  </header>
+  <div class="content__body">
+    {{ .Content }}
+  </div>
+{{ end }}
+
+{{define "aside" }}
+  {{- partial "lang.html" . -}}
+{{ end }}

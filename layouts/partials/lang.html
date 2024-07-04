@@ -1,0 +1,26 @@
+<ul class="aside__language-menu">
+    {{ $siteLanguages := .Site.Languages }}
+    {{ $pageLang := .Page.Lang }}
+    
+    {{ $currentPage := . }}
+    {{ $pageName := "" }}
+    {{ range .Site.Menus.main }}
+      {{ if eq ($currentPage.Permalink) (.URL | absLangURL) }}
+        {{ $pageName = .Name }}
+      {{ end }}
+    {{ end }}
+    
+    {{ range .Page.AllTranslations }}
+      {{ $translation := .}}
+      {{ range $siteLanguages }}
+          {{ if eq $translation.Lang .Lang }}
+            {{ $selected := false }}
+            {{ if eq $pageLang .Lang }}
+              <li class="active"><b>{{ .LanguageName }}</b></li>
+            {{ else }}
+              <li><a href="{{ $translation.Permalink }}">{{ .LanguageName }}</a></li>
+            {{ end }}
+          {{ end }}
+      {{ end }}
+    {{ end }}
+</ul>
