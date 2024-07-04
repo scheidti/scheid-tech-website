@@ -33,6 +33,11 @@ defaultContentLanguageInSubdir = false
         name = "Disclaimer"
         url = "/disclaimer/"
         weight = 30
+      [[languages.de.menus.main]]
+        identifier = "datenschutzerklaerung"
+        name = "Datenschutzerklärung"
+        url = "/datenschutzerklaerung/"
+        weight = 40
 
   [languages.en]
     contentDir = 'content/en'   
@@ -60,6 +65,11 @@ defaultContentLanguageInSubdir = false
         name = "Disclaimer"
         url = "/disclaimer/"
         weight = 30
+      [[languages.en.menus.main]]
+        identifier = "privacy-policy"
+        name = "Privacy policy"
+        url = "/privacy-policy/"
+        weight = 40
 
 [params.theme]
 palette = "solarized-dark"
