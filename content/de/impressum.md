@@ -1,6 +1,9 @@
 +++
 title = "Impressum"
 description = "Impressum und rechtliche Informationen von www.scheid.tech"
+[sitemap]
+  changefreq = 'monthly'
+  priority = 0.8
 +++
 
 ## Information gemäß § 5 Digitale-Dienste-Gesetz und § 18 Abs. 1 Medienstaatsvertrag 

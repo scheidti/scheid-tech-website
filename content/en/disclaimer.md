@@ -1,6 +1,9 @@
 +++
 title = "Disclaimer"
 description = "Learn more about the content, availability, and copyrights of this website."
+[sitemap]
+  changefreq = 'monthly'
+  priority = 0.8
 +++
 
 ## Website Content

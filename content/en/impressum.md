@@ -2,6 +2,9 @@
 title = "Imprint"
 slug = "imprint"
 description = "Imprint and legal information of www.scheid.tech"
+[sitemap]
+  changefreq = 'monthly'
+  priority = 0.8
 +++
 
 ## Information in accordance with § 5 Digitale-Dienste-Gesetz and § 18 Abs. 1 Medienstaatsvertrag 

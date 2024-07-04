@@ -2,6 +2,9 @@
 title = "Privacy policy"
 slug = "privacy-policy"
 description = "Learn how your personal data is protected on the website www.scheid.tech."
+[sitemap]
+  changefreq = 'monthly'
+  priority = 0.8
 +++
 
 ## Contents

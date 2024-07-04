@@ -1,6 +1,9 @@
 +++
 title = "Datenschutzerklärung"
 description = "Erfahren Sie, wie Ihre persönlichen Daten auf der Website www.scheid.tech geschützt werden."
+[sitemap]
+  changefreq = 'monthly'
+  priority = 0.8
 +++
 
 ## Inhalt
