@@ -1,6 +1,7 @@
 +++
 title = "Imprint"
-slug = 'imprint'
+slug = "imprint"
+description = "Imprint and legal information of www.scheid.tech"
 +++
 
 ## Information in accordance with § 5 Digitale-Dienste-Gesetz and § 18 Abs. 1 Medienstaatsvertrag 

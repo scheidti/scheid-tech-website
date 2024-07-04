@@ -1,5 +1,6 @@
 +++
 title = "Disclaimer"
+description = "Learn more about the content, availability, and copyrights of this website."
 +++
 
 ## Website Content

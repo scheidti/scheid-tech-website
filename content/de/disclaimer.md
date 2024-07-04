@@ -1,5 +1,6 @@
 +++
 title = "Disclaimer"
+description = "Erfahren Sie mehr über die Inhalte, Verfügbarkeit und Urheberrechte dieser Website."
 +++
 
 ## Inhalte der Website 

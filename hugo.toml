@@ -5,6 +5,8 @@ author = 'Christian Scheid'
 theme = 'risotto'
 defaultContentLanguage = 'de'
 defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+timeZone = 'Europe/Berlin'
 
 [languages]
   [languages.de]

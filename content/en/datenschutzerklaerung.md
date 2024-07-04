@@ -1,6 +1,7 @@
 +++
 title = "Privacy policy"
-slug = 'privacy-policy'
+slug = "privacy-policy"
+description = "Erfahren Sie, wie Ihre persönlichen Daten auf der Website www.scheid.tech geschützt werden. "
 +++
 
 ## Contents

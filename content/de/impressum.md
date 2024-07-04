@@ -1,5 +1,6 @@
 +++
 title = "Impressum"
+description = "Impressum und rechtliche Informationen von www.scheid.tech"
 +++
 
 ## Information gemäß § 5 Digitale-Dienste-Gesetz und § 18 Abs. 1 Medienstaatsvertrag 

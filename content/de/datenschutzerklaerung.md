@@ -1,5 +1,6 @@
 +++
 title = "Datenschutzerklärung"
+description = "Learn how your personal data is protected on the website www.scheid.tech."
 +++
 
 ## Inhalt
