@@ -1,3 +1,5 @@
 about_description = "Willkommen auf dem Blog von Christian Scheid, Fullstack-Webentwickler aus Berlin. Hier finden Sie Einblicke in meine Arbeit, Projekte und Themen aus der Webentwicklung, die mich interessieren."
 powered_by = "Erstellt mit"
 and = "und"
+blog_articles = "Blog-Einträge"
+created_at = "Erstellt am"
