@@ -1,5 +1,5 @@
 <title>{{ with .Title }}{{ . }} &ndash; {{end}}{{ .Site.Title }}</title>
-{{ with .Site.Params.about }}<meta name="description" content="{{ .description }}">{{ end }}
+{{ with .Params }}<meta name="description" content="{{ .description }}">{{ end }}
 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
@@ -20,12 +20,9 @@
 
 {{ $opts := dict "transpiler" "dartsass" "targetPath" "css/custom.css" }}
 {{ with resources.Get "sass/main.scss" | toCSS $opts | minify | fingerprint }}
-<link rel="preload" href="{{ .Permalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ .Permalink }}"></noscript>
+<link rel="stylesheet" href="{{ .Permalink }}">
 {{ end }}
-
-<link rel="preload" href="{{ "icons/icons.css" | absURL }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ "icons/icons.css" | absURL }}"></noscript>
+<link rel="stylesheet" href="{{ "icons/icons.css" | absURL }}">
 
 <!-- favicon -->
 {{ if os.FileExists "static/favicon.ico" }}<link rel="icon" href="{{ "favicon.ico" | absURL }}">{{ end }}
