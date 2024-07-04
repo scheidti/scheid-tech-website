@@ -1,12 +1,52 @@
 {{ define "main" }}
   <header class="content__header">
-    <h1>Blog</h1>
+    <h1>{{ T "blog_articles" }}</h1>
   </header>
   <div class="content__body">
-    {{ .Content }}
+    {{ $pages := where .Site.RegularPages "Section" "blog" }}
+    {{ $paginator := .Paginate $pages.ByDate.Reverse }}
+    {{ range $paginator.Pages }}
+    <article class="post">
+      <header class="post__header">
+        <h2><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h2>
+      </header>
+
+      <section class="post__summary">
+        {{ .Summary }}
+      </section>
+
+      <div class="post__meta">
+        <div class="post__date">
+          <i title="{{ T "created_at" }}" class="icon-calendar-blank" aria-hidden="true"></i>
+          {{ .Date | time.Format ":date_medium" }}
+        </div>
+      
+        <div class="post__tag">
+          <i title="Tags" class="icon-tag-multiple" aria-hidden="true"></i>
+          <ul class="post__tags">
+            {{ range .Params.tags }}
+            <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </article>
+    <hr>
+    {{ end }}
+
+    {{ template "_internal/pagination.html" . }}
   </div>
 {{ end }}
 
 {{define "aside" }}
   {{- partial "lang.html" . -}}
+  <hr>
+  <div class="aside__tags">
+    <h2 class="about__title">Tags</h2>
+    <ul class="post__tags">
+      {{ range $key, $value := .Site.Taxonomies.tags }}
+      <li><a href="{{ "/tags/" | relLangURL }}{{ $key | urlize }}">{{ $key }}</a></li>
+      {{ end }}
+    </ul>
+  </div>
 {{ end }}

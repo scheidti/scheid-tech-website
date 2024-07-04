@@ -30,6 +30,10 @@ url = "mailto:christian@scheid.tech"
     weight = 1
     [languages.de.params]
       subtitle = ''
+    [languages.de.pagination]
+      disableAliases = false
+      pagerSize = 15
+      path = 'seite'
     [languages.de.menus]
       [[languages.de.menus.main]]
         identifier = "blog"
@@ -62,6 +66,10 @@ url = "mailto:christian@scheid.tech"
     weight = 2
     [languages.en.params]
       subtitle = ''
+    [languages.en.pagination]
+      disableAliases = false
+      pagerSize = 15
+      path = 'page'
     [languages.en.menus]
       [[languages.en.menus.main]]
         identifier = "blog"
