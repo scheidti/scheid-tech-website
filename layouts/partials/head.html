@@ -18,8 +18,11 @@
 <link rel="stylesheet" href="{{ printf "css/palettes/%s.css" (.Site.Params.theme.palette | default "base16-dark") | absURL }}">
 <link rel="stylesheet" href="{{ "css/risotto.css" | absURL }}">
 
-<link rel="preload" href="{{ "css/custom.css" | absURL }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
-<noscript><link rel="stylesheet" href="{{ "css/custom.css" | absURL }}"></noscript>
+{{ $opts := dict "transpiler" "dartsass" "targetPath" "css/custom.css" }}
+{{ with resources.Get "sass/main.scss" | toCSS $opts | minify | fingerprint }}
+<link rel="preload" href="{{ .Permalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="{{ .Permalink }}"></noscript>
+{{ end }}
 
 <link rel="preload" href="{{ "icons/icons.css" | absURL }}" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="{{ "icons/icons.css" | absURL }}"></noscript>
