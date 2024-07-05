@@ -99,3 +99,6 @@ palette = "solarized-dark"
   [params.author]
     email = 'christian@scheid.tech'
     name = 'Christian Scheid'
+
+[taxonomies]
+  tag = 'tags'
