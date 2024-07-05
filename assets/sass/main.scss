@@ -20,6 +20,7 @@
 
 .post__tags {
   padding: 0;
+  margin: 0;
 
   li {
     display: inline-block;
@@ -52,6 +53,10 @@
 
 .post__summary {
   padding: 6px 0;
+
+  p {
+    margin: 0;
+  }
 }
 
 .content__body {
