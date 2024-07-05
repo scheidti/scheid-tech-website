@@ -2,4 +2,5 @@ about_description = "Willkommen auf dem Blog von Christian Scheid, Fullstack-Web
 powered_by = "Erstellt mit"
 and = "und"
 blog_articles = "Blog-Einträge"
+blog_article = "Blog-Eintrag"
 created_at = "Erstellt am"

@@ -1,0 +1,41 @@
+{{ define "main" }}
+    <header class="content__header">
+        <h1>
+            {{ T "blog_article" }}
+        </h1>
+    </header>
+
+    <article itemscope itemtype="https://schema.org/BlogPosting" itemid="{{ .Permalink }}">
+        {{ template "_internal/schema.html" . }}
+
+        <div class="content__header">
+            <h2>{{ .Title | markdownify }}</h2>
+        </div>
+
+        <div class="post__meta">
+            <div class="post__date">
+                <i title="{{ T "created_at" }}" class="icon-calendar-blank" aria-hidden="true"></i>
+                {{ .Date | time.Format ":date_medium" }}
+            </div>
+        </div>
+
+        <div class="content__body">
+            {{ .Content }}
+        </div>
+
+        <footer class="content__footer">
+            <div class="post__tag">
+                <i title="Tags" class="icon-tag-multiple" aria-hidden="true"></i>
+                <ul class="post__tags">
+                    {{ range .Params.tags }}
+                    <li><a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a></li>
+                    {{ end }}
+                </ul>
+            </div>
+        </footer>
+    </article>
+{{ end }}
+
+{{define "aside" }}
+  {{- partial "lang.html" . -}}
+{{ end }}
