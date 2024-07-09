@@ -1,15 +1,9 @@
 {{ define "main" }}
-    <header class="content__header">
-        <h1>
-            {{ T "blog_article" }}
-        </h1>
-    </header>
-
     <article itemscope itemtype="https://schema.org/BlogPosting" itemid="{{ .Permalink }}">
         {{ template "_internal/schema.html" . }}
 
         <header class="content__header">
-            <h2>{{ .Title | markdownify }}</h2>
+            <h1>{{ .Title | markdownify }}</h1>
         </header>
 
         <div class="post__meta">

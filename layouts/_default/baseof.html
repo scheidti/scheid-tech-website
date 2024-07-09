@@ -12,14 +12,12 @@
                 {{- partial "header.html" . -}}
             </header>
 
-            <section class="page__body">
+            <main class="page__body">
                 {{- block "main" . }}{{- end }}
-            </section>
+            </main>
 
             <section class="page__aside">
-                <div class="aside__about">
-                    {{- partial "about.html" . -}}
-                </div>
+                {{- partial "about.html" . -}}
                 <hr>
                 <div class="aside__content">
                     {{- block "aside" . }}{{- end }}
