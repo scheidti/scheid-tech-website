@@ -7,7 +7,7 @@ defaultContentLanguage = 'de'
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
 timeZone = 'Europe/Berlin'
-copyright = '© 2024 Christian Scheid'
+copyright = '© 2025 Christian Scheid'
 
 [[params.socialLinks]]
 icon = "icon-github"
@@ -52,7 +52,7 @@ url = "mailto:christian@scheid.tech"
         weight = 30
       [[languages.de.menus.main]]
         identifier = "datenschutzerklaerung"
-        name = "Datenschutzerklärung"
+        name = "Datenschutz"
         url = "/datenschutzerklaerung/"
         weight = 40
 

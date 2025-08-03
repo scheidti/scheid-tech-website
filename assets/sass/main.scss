@@ -62,3 +62,16 @@
 .content__body {
   margin-top: 16px;
 }
+
+.highlight {
+  pre,
+  code, 
+  kbd,
+  samp {
+    background: rgb(39, 40, 34) !important;
+  }
+
+  pre {
+    padding: 1rem;
+  }
+}
