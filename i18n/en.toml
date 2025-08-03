@@ -1,6 +1,6 @@
 about_description = "Welcome to the blog of Christian Scheid, a Fullstack Web Developer from Berlin."
 powered_by = "Powered by"
 and = "and"
-blog_articles = "Blog articles"
-blog_article = "Blog article"
+blog_articles = "Blog posts"
+blog_article = "Blog post"
 created_at = "Created at"
