@@ -6,7 +6,3 @@ aliases = ["/en/blog/"]
   changefreq = 'weekly'
   priority = 1.0
 +++
-    
-## TODO
-
-TODO
