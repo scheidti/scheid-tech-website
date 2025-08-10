@@ -3,8 +3,9 @@ title = "How to Set Up MinIO as an Artifact Store for ZenML"
 description = "This blog post shows how to configure MinIO as an artifact store in ZenML — a data persistence layer for storing artifacts like datasets and models."
 date = "2025-08-03"
 images = []
-tags = ["ZenML", "MinIO", "S3", "MLOps"]
+tags = ["ZenML", "MinIO", "S3", "MLOps", "AI"]
 summary = "This blog post walks you through configuring MinIO as an artifact store in ZenML. The artifact store is a core component of any MLOps stack, acting as a data persistence layer where artifacts such as datasets and models are stored."
+outputs = ["html", "markdown"]
 [sitemap]
   changefreq = "monthly"
   priority = 0.5

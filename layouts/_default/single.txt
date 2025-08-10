@@ -1,0 +1,18 @@
+{{ .RawContent | safeHTML }}
+## German posts
+{{ "\n" }}
+{{- range .Site.Pages -}}
+  {{- $p := . -}}
+  {{- with .OutputFormats.Get "markdown" -}}
+- [{{ $p.Title }}]({{ .Permalink }}){{ "\n" }}
+  {{- end -}}
+{{- end -}}
+{{ "" }}
+## English posts
+{{ "\n" }}
+{{- range where .Site.AllPages "Lang" "en" -}}
+  {{- $p := . -}}
+  {{- with .OutputFormats.Get "markdown" -}}
+- [{{ $p.Title }}]({{ .Permalink }}){{ "\n" }}
+  {{- end -}}
+{{- end -}}
