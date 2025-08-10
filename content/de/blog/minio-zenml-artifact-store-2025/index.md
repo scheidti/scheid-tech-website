@@ -3,8 +3,9 @@ title = "MinIO als Artifact Store in ZenML konfigurieren"
 description = "Hier wird gezeigt, wie sich MinIO als Artifact Store in ZenML konfigurieren lässt und in der MLOps-Pipeline als Speicherort für Artefakte wie Datasets und KI-Modelle genutzt werden kann."
 date = "2025-08-03"
 images = []
-tags = ["ZenML", "MinIO", "S3", "MLOps"]
+tags = ["ZenML", "MinIO", "S3", "MLOps", "AI"]
 summary = "Hier wird gezeigt, wie sich MinIO als Artifact Store in ZenML konfigurieren lässt und in der MLOps-Pipeline als Speicherort für Artefakte wie Datasets und KI-Modelle genutzt werden kann."
+outputs = ["html", "markdown"]
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
